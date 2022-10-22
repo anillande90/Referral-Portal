@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-24 06:23:10</sys_created_on>
+        <sys_id>a749e3b82fa5d110ae17debcf699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4249a3b82fa5d110ae17debcf699b6ae.snc_internal</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_security_acl display_value="4249a3b82fa5d110ae17debcf699b6ae">9a49a3b8cba5d110f859e9ddcab576e6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a749e3b82fa5d110ae17debcf699b6c0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:23:10</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>3e39ef782fa5d110ae17debcf699b608</transaction_id>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User Profile" max_length="40" name="x_390165_referrals_user_profile" sizeclass="7" type="collection">
+        <element label="Contact No" max_length="15" name="contact_no" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.first_name +' '+current.last_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Name of Candidate" max_length="60" name="name_of_candidate" type="string" virtual="true"/>
+        <element label="Notice Period (in Days)" max_length="40" name="notice_period" type="string"/>
+        <element label="Resume" max_length="40" name="resume" type="file_attachment"/>
+        <element choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="new"/>
+                <element inactive_on_update="false" label="In Review" sequence="20" value="in_review"/>
+                <element inactive_on_update="false" label="Evaluation in Progress" sequence="30" value="evaluation_in_progress"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="40" value="confirmed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="50" value="cancelled"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Submitted by" max_length="32" name="submitted_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="submitted_by"/>
+        </index>
+    </element>
+</database>
