@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sc_cat_item>
+        <sc_catalog display_value="Human Resources Catalog">7b0370019f22120047a2d126c42e7075</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:00:33</sys_created_on>
+        <sys_id>c824abb02fa5d110ae17debcf699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources Catalog.Submit your referral</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c824abb02fa5d110ae17debcf699b628</sys_update_name>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:00:33</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</application>
+        <file_path/>
+        <instance_id>21f7d49ddb70ff8091232f17d4961908</instance_id>
+        <instance_name>dev80498</instance_name>
+        <name>sc_cat_item_catalog_c824abb02fa5d110ae17debcf699b628</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sc_cat_item><sc_catalog display_value="Human Resources Catalog">7b0370019f22120047a2d126c42e7075</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>anil.lande</sys_created_by><sys_created_on>2022-08-24 06:00:33</sys_created_on><sys_id>c824abb02fa5d110ae17debcf699b628</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Human Resources Catalog.Submit your referral</sys_name><sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package><sys_policy/><sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope><sys_update_name>sc_cat_item_catalog_c824abb02fa5d110ae17debcf699b628</sys_update_name><sys_updated_by>anil.lande</sys_updated_by><sys_updated_on>2022-08-24 06:00:33</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1061979639</payload_hash>
+        <record_name>Human Resources Catalog.Submit your referral</record_name>
+        <reverted_from/>
+        <source>939014a22f1d1110ae17debcf699b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:00:34</sys_created_on>
+        <sys_id>d024abb02fa5d110ae17debcf699b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ce702d160000001</sys_recorded_at>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:00:34</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1824abb05aa5d1106362140ad4d83d85</update_guid>
+        <update_guid_history>1824abb05aa5d1106362140ad4d83d85:-1061979639</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Human Resources Catalog.Submit your referral">0c3563342fa5d110ae17debcf699b648</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:05:11</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>05eaecfc7e004f8080db110703384000</sys_id>
+        <sys_metadata>c824abb02fa5d110ae17debcf699b628</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources Catalog.Submit your referral</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_parent display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_scope_delete display_value="">2671f4fa7fb54b788e6cde531657b584</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c824abb02fa5d110ae17debcf699b628</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c824abb02fa5d110ae17debcf699b628">d024abb02fa5d110ae17debcf699b686</sys_update_version>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:05:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

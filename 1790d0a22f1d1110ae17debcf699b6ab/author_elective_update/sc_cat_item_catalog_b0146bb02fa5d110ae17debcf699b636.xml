@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:00:19</sys_created_on>
+        <sys_id>b0146bb02fa5d110ae17debcf699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit your referral</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b0146bb02fa5d110ae17debcf699b636</sys_update_name>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:00:19</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</application>
+        <file_path/>
+        <instance_id>21f7d49ddb70ff8091232f17d4961908</instance_id>
+        <instance_name>dev80498</instance_name>
+        <name>sc_cat_item_catalog_b0146bb02fa5d110ae17debcf699b636</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>anil.lande</sys_created_by><sys_created_on>2022-08-24 06:00:19</sys_created_on><sys_id>b0146bb02fa5d110ae17debcf699b636</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Submit your referral</sys_name><sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package><sys_policy/><sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope><sys_update_name>sc_cat_item_catalog_b0146bb02fa5d110ae17debcf699b636</sys_update_name><sys_updated_by>anil.lande</sys_updated_by><sys_updated_on>2022-08-24 06:00:19</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>636454435</payload_hash>
+        <record_name>Service Catalog.Submit your referral</record_name>
+        <reverted_from/>
+        <source>939014a22f1d1110ae17debcf699b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:00:20</sys_created_on>
+        <sys_id>f4146bb02fa5d110ae17debcf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ce6ff57a0000001</sys_recorded_at>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:00:20</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3c146bb0a2a5d11098b8eed350b1c638</update_guid>
+        <update_guid_history>3c146bb0a2a5d11098b8eed350b1c638:636454435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Submit your referral">2314abb02fa5d110ae17debcf699b622</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>anil.lande</sys_created_by>
+        <sys_created_on>2022-08-24 06:00:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>277395d1d5be4a3aa1f45b8bcade73d9</sys_id>
+        <sys_metadata>b0146bb02fa5d110ae17debcf699b636</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit your referral</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_parent display_value="Submit your referral">35a32f702fa5d110ae17debcf699b6d0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_scope_delete display_value="">2671f4fa7fb54b788e6cde531657b584</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b0146bb02fa5d110ae17debcf699b636</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b0146bb02fa5d110ae17debcf699b636">f4146bb02fa5d110ae17debcf699b639</sys_update_version>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:00:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

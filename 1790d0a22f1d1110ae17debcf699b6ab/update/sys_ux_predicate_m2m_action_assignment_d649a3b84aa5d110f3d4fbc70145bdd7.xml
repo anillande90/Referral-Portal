@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="Popular articles predicate">1a49a3b85fa5d1104f56c4084c745fda</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-24 06:23:11</sys_created_on>
+        <sys_id>d649a3b84aa5d110f3d4fbc70145bdd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_d649a3b84aa5d110f3d4fbc70145bdd7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:23:11</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

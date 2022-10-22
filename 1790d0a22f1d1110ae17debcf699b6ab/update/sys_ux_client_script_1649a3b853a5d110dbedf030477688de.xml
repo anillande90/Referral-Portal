@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Order success">de49a3b8cfa5d11058e146a528bf03de</macroponent>
+        <name>View request redirection</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let {
+        table,
+        sysId
+    } = api.context.props;
+
+    const route = "record_request";
+
+    if (table != "sc_request") {
+        table = table == "x_390165_referrals_user_profile" ? "x_390165_referrals_user_profile" : "incident";
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table,
+                sysId
+            }
+        });
+    } else {
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table : "sc_req_item",
+                sysId : api.data.request_item_data_broker_1.output.sysId
+            }
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-24 06:23:12</sys_created_on>
+        <sys_id>1649a3b853a5d110dbedf030477688de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>View request redirection</sys_name>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_update_name>sys_ux_client_script_1649a3b853a5d110dbedf030477688de</sys_update_name>
+        <sys_updated_by>anil.lande</sys_updated_by>
+        <sys_updated_on>2022-09-03 10:27:04</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

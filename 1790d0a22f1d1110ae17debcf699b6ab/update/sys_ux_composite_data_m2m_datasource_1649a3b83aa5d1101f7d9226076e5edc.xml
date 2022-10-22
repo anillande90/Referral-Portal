@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">9249a3b8dba5d11006edad9b15139cdd</dataset>
+        <datasource display_value="Custom Portal Landing - Popular articles Datasource">de49a3b888a5d1106bdf091f3ab360dc</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-24 06:23:15</sys_created_on>
+        <sys_id>1649a3b83aa5d1101f7d9226076e5edc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Referrals" source="x_390165_referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Referrals">1790d0a22f1d1110ae17debcf699b6ab</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_1649a3b83aa5d1101f7d9226076e5edc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-24 06:23:15</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

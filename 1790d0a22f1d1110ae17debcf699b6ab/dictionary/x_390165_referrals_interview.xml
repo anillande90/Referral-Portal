@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Interview" max_length="40" name="x_390165_referrals_interview" sizeclass="8" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="x_390165_referrals_user_profile" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="HR Result" max_length="40" name="hr_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" sequence="10" value="confirmed"/>
+                <element inactive_on_update="false" label="Cancel" sequence="20" value="Cancel"/>
+                <element inactive_on_update="false" label="On Hold" sequence="20" value="on_hold"/>
+            </choice>
+        </element>
+        <element choice="1" label="Level" max_length="40" name="level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tech Level1" sequence="10" value="tech_level1"/>
+                <element inactive_on_update="false" label="Tech Level2" sequence="20" value="tech_level2"/>
+                <element inactive_on_update="false" label="Functional" sequence="30" value="functional"/>
+                <element inactive_on_update="false" label="HR Discussion" sequence="40" value="hr_discussion"/>
+            </choice>
+        </element>
+    </element>
+</database>
